@@ -37,7 +37,7 @@ def classify_row(row):
         return '분류안됨'
 
 
-강서_temp = pd.read_csv('강서_tempv1.csv', encoding='cp949')
+강서_temp = pd.read_csv('./Code/yehdongwan/강서_tempv1.csv', encoding='cp949')
 
 
 강서_temp['용도지역_1'] = None
