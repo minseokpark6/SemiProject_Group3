@@ -78,7 +78,6 @@ for ii,item in enumerate(강서_temp['주소']):
             continue
         
         else:
-            print("123")
             search_key.click()
             time.sleep(1)
             address_keys = driver.find_elements(By.CLASS_NAME, "ico01")           
