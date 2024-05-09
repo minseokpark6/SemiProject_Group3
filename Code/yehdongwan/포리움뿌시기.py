@@ -23,6 +23,11 @@ import time
 
 gu_list = {'SearchFAQOfGUListService': {'list_total_count': 25, 'RESULT': {'CODE': 'INFO-000', 'MESSAGE': '정상 처리되었습니다'}, 'row': [{'CODE': '315', 'CD_DESC': '강서구'}]}}
 
+
+
+
+
+
 df_gu = pd.DataFrame(gu_list['SearchFAQOfGUListService']['row'])
 df_gu
 
