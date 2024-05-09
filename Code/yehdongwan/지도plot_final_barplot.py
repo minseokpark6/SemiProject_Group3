@@ -33,8 +33,8 @@ legend_html = """
     ">
     <p><a style="color:#FF8200;font-size:150%;margin-left:20px;">◼</a>&emsp;주거지역</p>
     <p><a style="color:#84CAE7;font-size:150%;margin-left:20px;">◼</a>&emsp;상업지역</p>
-    <p><a style="color:D56062;font-size:150%;margin-left:20px;">◼</a>&emsp;대여량</p>
-    <p><a style="color:#067BC2;font-size:150%;margin-left:20px;">◼</a>&emsp;반납량</p>
+    <p><a style="color:#336666;font-size:150%;margin-left:20px;">◼</a>&emsp;대여량</p>
+    <p><a style="color:#33cc99;font-size:150%;margin-left:20px;">◼</a>&emsp;반납량</p>
 </div>
 <div style="
     position: fixed;
@@ -395,7 +395,7 @@ for lat,lon, 최종용도 in zip(타겟_대여소['위도'],타겟_대여소['�
 
 bicycle_group.add_to(강서따릉이)
 subway_group.add_to(강서따릉이)
-# 강서따릉이.get_root().add_child(legend)
+강서따릉이.get_root().add_child(legend)
 folium.LayerControl().add_to(강서따릉이)
 
 
